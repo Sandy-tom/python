@@ -19,4 +19,24 @@ a= int(input("enter the a value"))
 oops(a)
     
   //program 3:
-    
+   def myfun(j):
+   print(j)
+first="sandy"
+get="kumar"
+myfun(first)
+myfun(get)
+
+   //program 4:
+  //args-//kwargs
+    def fun( *arg):
+        print(arg)
+fun("arun","guna","balaji")
+
+// progran indentation
+def fun( *arg):
+    for i in arg:
+        print("he name was ",i)
+
+fun("arun","guna","balaji")
+
+// program 
