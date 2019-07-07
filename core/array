@@ -29,7 +29,7 @@ from array import *  // it is passing array in funtion to another funtion
 def join(g):
       for i in g:
             print(i*i)
-arr = array('i',[1,2,3,3,4,5])
+arr = array('i',[1,2,3,3,4,5]) //initializing array with array values
 for i in arr:
       print(i)
 join(arr)
@@ -39,8 +39,7 @@ def find(list):
     even =0
     odd =0
     for i in list:
-
-        if i%2==0:
+    if i%2==0:
             even += 1
         else :
             odd +=1
@@ -49,3 +48,15 @@ list=[2,4,56,8,3,5,6]
 even,odd=find(list)
 print(even)
 print(odd)
+
+//program 6:
+
+def find_product(num1, num2, num3):
+    product = 1
+    go=[num1, num2, num3]
+    for i in go:
+        if(i!=7):
+            product=product*i;
+    return product
+product = find_product(7, 6, 2)
+print(product)
