@@ -1,1 +1,21 @@
+// program 1:
+class jump:
+    id =78;
+    name='sandy'
+    def good(self):
+        print(self.id,self.name) //We will also talk about how an attribute is accessed by using the class object.
+op = jump()
+op.good() // calling the metjod
+
+//program 2:
+
+class jump:
+    def good(self,id,name):
+        self.id=id
+        self.name = name
+        print(self.id,self.name)
+op = jump()
+op1 = jump()
+op1.good(56,"hjhj")
+op.good(23,"nmm")
 
