@@ -70,3 +70,16 @@ def find_product(num1, num2, num3):
     return product
 product = find_product(7, 6, 2)
 print(product)
+
+
+from array import *
+arr = array('i',[])
+n = int(input("enter the value "))
+print("enter the input element")
+for i in range(n):
+    x=int(input())
+    arr.append(x)
+print(arr)
+
+p = int(input("enter the value"))
+arr.index(p)
