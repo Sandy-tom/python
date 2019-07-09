@@ -38,6 +38,16 @@ join(arr)
 def find(list):
     even =0
     odd =0
+    
+    //program 6:
+    from array import *
+arr = array('i',[])                  // dynamic input array in this program
+n = int(input("enter the value "))
+print("enter the input element")
+for i in range(n):
+    x=int(input())
+    arr.append(x)
+print(arr)
     for i in list:
     if i%2==0:
             even += 1
